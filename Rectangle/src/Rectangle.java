@@ -1,3 +1,4 @@
+// Łukasz Ćwikliński s19334
 import static java.lang.Math.*;
 
 public class Rectangle {
