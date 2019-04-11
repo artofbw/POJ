@@ -1,3 +1,5 @@
+// Łukasz Ćwikliński s19334
+
 class CaesarCipher
 {
     // the CaesarCipher class has one fields

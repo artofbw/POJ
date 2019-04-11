@@ -1,3 +1,5 @@
+// Łukasz Ćwikliński s19334
+
 public class Human {
     public enum Gender {
         MALE,
