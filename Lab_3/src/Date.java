@@ -79,7 +79,7 @@ public class Date
         System.out.println(DateObj.getMonth());
         System.out.println(DateObj.getYear());
         System.out.println("Zmiana wartosci dla qty i unitPrice:");
-        DateObj.setDate(10, 11, 2010);
+        DateObj.setDate(1, 2, 2010);
         System.out.println(DateObj.toString());
     }
 } 
