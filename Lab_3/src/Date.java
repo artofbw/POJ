@@ -49,6 +49,23 @@ public class Date
 
     public String toString()
     {
+        String day = "", month = "", year= "";
+
+        if (this.getDay() < 10) {
+            day = "0" + this.getDay();
+        }
+        else {
+            day = "" + this.getDay();
+        }
+
+
+        if (this.getMonth() < 10) {
+            month = "0" + this.getMonth();
+        }
+        else {
+            month = "" + this.getMonth();
+        }
+        
         return this.getDay() + "/"+ this.getMonth() + "/" + this.getYear();
     }
 
